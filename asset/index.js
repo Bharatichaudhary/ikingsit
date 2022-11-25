@@ -13,11 +13,41 @@ function openNav() {
     function show() {
       for (var i = left; i <= right; i++) {
         document.getElementById("b" + i).style.display = "inline-block";
+        document.getElementById("d" + i).style.display = "inline-block";
 
         document.getElementById("c" + i).style.display = "inline-block";
         document.getElementById("a" + i).style.display = "inline-block";
     
       }
+    }
+    function move_left()
+    {
+        if (left <= 3 && right <= 6) {
+    
+    document.getElementById("d" + left).style.display = "none";
+    left = left + 1;
+    right = right + 1;
+    for (i = left; i <= right; i++) {
+    document.getElementById("d" + i).style.display = "inline-block";
+    
+    }
+    } else 
+    return;
+    }
+    function move_right() {
+      if (left > 1 && right > 3 ) {
+    
+        document.getElementById("d" + right).style.display = "none";
+        left = left - 1;
+        right = right - 1;
+        for (i = left; i <= right; i++) {
+          document.getElementById("d" + i).style.display = "inline-block";
+    
+        }
+      } else {
+        return;
+      }
+    
     }
     function leftmove(){
       if (left <= 3 && right <= 6) {
