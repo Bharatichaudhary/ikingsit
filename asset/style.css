@@ -28,13 +28,23 @@ nav{
     background-color: white;
 }
 .whole-nav-wrapper,nav{
-    position: fixed;
+    position: relative;
     background-color: white;
     width: 100%;
 }
 .nav-detail{
     display: flex;
     gap: 2rem;
+}
+.inverted-2 :hover{
+    background: linear-gradient( 90deg, #000 50%, #fff 0), linear-gradient(-90deg, #000 50%, #fff 0), linear-gradient( 90deg, #0000 50%, #ED1E66 0), linear-gradient(-90deg, #0000 50%, #ED1E66 0);
+    background-repeat: no-repeat;
+    background-size: 200% 51%;
+    background-position: top left, bottom right;
+    -webkit-background-clip: text, text, padding-box, padding-box;
+    background-clip: text, text, padding-box, padding-box;
+    transition: 0.8s;
+    padding: 0.5rem 0.7rem;
 }
 .nav-contacts{
     display: flex;

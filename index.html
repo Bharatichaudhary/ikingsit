@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9cfa251def.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="asset/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 
     <script src="asset/index.js"></script>
@@ -35,11 +34,11 @@
             </div>
         </div>
 
-        <nav>
+        <nav >
             <img src="asset/photosrc/logo.png" alt="Check your internet connection">
-            <ul class="nav-ul">
-                <li><a href="index.html"><i class="fa-solid fa-house active"></i></a></li>
-                <li><a href="about.html">About us</a></li>
+            <ul class="nav-ul " data-aos="fade-right" data-aos-duration="3000" class="aos-init aos-animate">
+                <li ><a href="index.html"><i class="fa-solid fa-house active"></i></a></li>
+                <li ><a href="about.html">About us</a></li>
                 <li class="home nav-li dropdown-btn">
                     <a href="services.html">Our Services</a>
                     <div class="dropdown-content">
@@ -89,7 +88,7 @@
                 <a href="contact.html">Contact Us</a>
 
               </div>
-              <div class="bar-search">
+              <div class="bar-search" data-aos="fade-left" data-aos-duration="3000">
                   <div class="btn">
                     <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars home"></i></button>
                 </div>
@@ -102,18 +101,18 @@
     </div>
 
     <main>
-        <div class="banner-content">
+        <div class="banner-content" data-aos="fade-up" data-aos-duration="3000">
             <span class="b-title">IT Design & consulting</span>
             <h1>Faciliate All Local <span>IT-Related Services</span> Providers</h1>
             <p>Highly Tailored IT Design,Management & support Services</p>
             <a href="contactus.html"><input type="button" value="Contact Us"></a>
         </div>
-        <div class="banner-img">
+        <div class="banner-img"data-aos="fade-down" data-aos-duration="3000">
             <img src="asset/photosrc/businessman_PNG6565.png">
         </div>
     </main>
 
-    <div class="about-us">
+    <div class="about-us"data-aos="zoom-in" data-aos-duration="3000">
         <div class="about-img">
             <img src="asset/photosrc/aboutus.png">
         </div>
@@ -287,10 +286,10 @@
     </div>
 
     <div class="our-work">
-        <div class="our-img">
+        <div class="our-img"data-aos="fade-up-right" data-aos-duration="2000">
             <img src="asset/photosrc/ourwork.jpg">
         </div>
-        <div class="work-content">
+        <div class="work-content"data-aos="fade-up-left" data-aos-duration="2000">
             <div class="work-title">
                 About our work
             </div>
@@ -677,7 +676,7 @@
         </div>
     </div>
 
-    <div class="message">
+    <div class="message"data-aos="fade-up" data-aos-duration="3000">
         <div class="message-title"><h2>CEO's <a href="">Message</a></h2></div>
         <div class="ceo">
         <img class="message-image"src="asset/photosrc/team1.jpg" alt="">
@@ -729,7 +728,7 @@
             </div> © 2022 Kings IT & Multimedia. All Rights Reserved.
         </div>
     </footer>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
