@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="asset/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
 
     <script src="asset/index.js"></script>
@@ -112,7 +115,7 @@
         </div>
     </main>
 
-    <div class="about-us"data-aos="zoom-in" data-aos-duration="3000">
+    <div class="about-us">
         <div class="about-img">
             <img src="asset/photosrc/aboutus.png">
         </div>
@@ -245,51 +248,42 @@
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quasi porro facilis in neque aliquam dolore eaque dolorum alias nisi?</p>
         </div>
-        <div class="test" style="width: 60%;">
-            <div class="rightarrow" >
-                <button onclick="rightmove()"><i class="bi bi-chevron-left"></i></button>
-              </div>
-        <div class="child" id="b1">
+        <div class="wrapper" style="width: 60%;">
+           <div class="carousel owl-carousel">
+    
         <div class="project-wrapper ">
             <img src="asset/photosrc/recpro-1.jpg">
         </div>
-    </div>
-    <div class="child" id="b2">
+    
+    
         <div class="project-wrapper ">
             <img src="asset/photosrc/recpro-2.jpg">
         </div>
-    </div>
-    <div class="child" id="b3">
+
         <div class="project-wrapper">
             <img src="asset/photosrc/recpro-3.jpg">
         </div>
-    </div>
-    <div class="child" id="b4">
+  
         <div class="project-wrapper">
             <img src="asset/photosrc/recpro-3.jpg">
         </div>
-    </div>
-    <div class="child" id="b5">
+
         <div class="project-wrapper">
             <img src="asset/photosrc/recpro-3.jpg">
         </div>
-    </div>
-    <div class="child" id="b6">
+   
         <div class="project-wrapper">
             <img src="asset/photosrc/recpro-3.jpg">
         </div>
-        </div>
-        <div class="rightarrow" >
-            <button onclick="leftmove()"><i class="bi bi-chevron-right"></i></button>
-          </div>
+       </div>
         </div>
     </div>
 
     <div class="our-work">
-        <div class="our-img"data-aos="fade-up-right" data-aos-duration="2000">
+        <div class="our-img">
             <img src="asset/photosrc/ourwork.jpg">
         </div>
-        <div class="work-content"data-aos="fade-up-left" data-aos-duration="2000">
+        <div class="work-content">
             <div class="work-title">
                 About our work
             </div>
@@ -326,55 +320,45 @@
             We offer our services on
         </div>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi id nisi tempora at, nam provident quibusdam? Obcaecati adipisci neque quaerat.</p>
-        <div class="ind-container test">
-            <div class="leftarrow" >
-                <button onclick="move_right()"><i class="bi bi-chevron-left"></i></button>
-              </div>
-            <div class="child" id="d1">
+        <div class="ind-container ">
+            
+           <div class="carousel-industry owl-carousel">
             <div class="ind">
                 <img src="asset/photosrc/hi-tech.png">
                 Hi-tech
             </div>
-            </div>
-            <div class="child" id="d2">
+       
             <div class="ind">
                 <img src="asset/photosrc/hotels.png">
                 Hotel
             </div>
-        </div>
-        <div class="child" id="d3">
+      
             <div class="ind">
                 <img src="asset/photosrc/education.png">
                 Education
             </div>
-        </div>
-        <div class="child" id="d4">
+
             <div class="ind">
                 <img src="asset/photosrc/automobile.png">
                 Automobile
             </div>
-        </div>
-        <div class="child" id="d5">
+   
             <div class="ind">
                 <img src="asset/photosrc/industrial.png">
                 Industrial
             </div>
-        </div>
-        <div class="child" id="d6">
+   
             <div class="ind">
                 <img src="asset/photosrc/medical.png">
                 Medical
             </div>
-        </div>
-        <div class="child" id="d7">
+ 
             <div class="ind">
                 <img src="asset/photosrc/media.png">
                 Media
             </div>
             </div>
-            <div class="rightarrow" >
-                <button onclick="move_left()"><i class="bi bi-chevron-right"></i></button>
-              </div>
+          
         </div>
     </div>
 
@@ -391,10 +375,7 @@
             </div>
         </div>
         <div class="team-card-container test">
-            <div class="leftarrow" >
-                <button onclick="moveright()"><i class="bi bi-chevron-left"></i></button>
-              </div>
-              <div class="child" id="c1">
+          <div class="carousel owl-carousel">
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team1.jpg">
@@ -408,8 +389,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-        </div>
-        <div class="child" id="c2">
+       
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team2.jpg">
@@ -423,8 +403,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-        </div>
-        <div class="child" id="c3">
+     
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team3.jpg">
@@ -438,8 +417,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-        </div>
-        <div class="child" id="c4">
+     
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team4.jpg">
@@ -453,8 +431,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-        </div>
-        <div class="child" id="c5">
+       
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team3.jpg">
@@ -468,8 +445,7 @@
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-        </div>
-        <div class="child" id="c6">
+       
             <div class="team-card">
                 <div class="team-img">
                     <img src="asset/photosrc/team4.jpg">
@@ -484,9 +460,7 @@
                 </div>
             </div>
             </div>
-            <div class="rightarrow" >
-                <button onclick="moveleft()"><i class="bi bi-chevron-right"></i></button>
-              </div>
+    =
         </div>
     </div>
 
@@ -498,10 +472,7 @@
             Read What Our Customer say
         </div>
         <div class="tes-card-container test">
-            <div class="leftarrow" >
-                <button onclick="movright()"><i class="bi bi-chevron-left"></i></button>
-              </div>
-              <div class="child" id="a1">
+       <div class="carousel owl-carousel">
             <div class="tes-card" >
                 <div class="tes-img">
                     <img src="asset/photosrc/team1.jpg">
@@ -512,8 +483,7 @@
                     <div class="tes-position">-CEO</div>
                 </div>
             </div>
-            </div>
-            <div class="child" id="a2">
+          
             <div class="tes-card " >
                 <div class="tes-img">
                     <img src="asset/photosrc/team3.jpg">
@@ -524,8 +494,7 @@
                     <div class="tes-position">-CEO</div>
                 </div>
             </div>
-        </div>
-            <div class="child" id="a3">
+       
 
             <div class="tes-card " >
                 <div class="tes-img">
@@ -537,10 +506,9 @@
                     <div class="tes-position">-CEO</div>
                 </div>
             </div>
-            </div>
-            <div class="child" id="a4">
+       
 
-            <div class="tes-card" id="a4">
+            <div class="tes-card" >
                 <div class="tes-img">
                     <img src="asset/photosrc/team4.jpg">
                 </div>
@@ -550,8 +518,7 @@
                     <div class="tes-position">-CEO</div>
                 </div>
             </div>
-            </div>
-            <div class="child" id="a5">
+       
 
             <div class="tes-card " >
                 <div class="tes-img">
@@ -563,8 +530,7 @@
                     <div class="tes-position">-CEO</div>
                 </div>
             </div>
-            </div>
-            <div class="child" id="a6">
+         
 
             <div class="tes-card" >
                 <div class="tes-img">
@@ -577,9 +543,7 @@
                 </div>
             </div>
             </div>
-            <div class="rightarrow" >
-                <button onclick="movleft()"><i class="bi bi-chevron-right"></i></button>
-              </div>
+            
 
         </div>
     </div>
@@ -730,5 +694,49 @@
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script>
+        $(".carousel").owlCarousel({
+            margin:20,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false
+                },
+                400:{
+                    items:2,
+                    nav:false
+                },
+                800:{
+                    items:3,
+                    nav:false
+                }
+            }
+        });
+        $(".carousel-industry").owlCarousel({
+            margin:50,
+            loop:true,
+            autoplay:true,
+            autoplayTimeout: 4000,
+            responsive:{
+                0:{
+                    items:3,
+                    nav:false
+                },
+                400:{
+                    items:4,
+                    nav:false
+                },
+                800:{
+                    items:5,
+                    nav:false
+                }
+            }
+        });
+
+    </script>
 </body>
 </html>

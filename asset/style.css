@@ -71,8 +71,8 @@ nav{
     height: 2rem;
 }
 .nav-ul{
-    gap: 4rem;
-    font-size: 1.2rem;
+    gap: 2.5rem;
+    font-size: 1.4rem;
 }
 .nav-ul a:hover{
     color: #F8B342;
@@ -224,7 +224,7 @@ font-size: 1.4rem;
 }
 
 .banner-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .b-title{
     font-size: 1.4rem;
@@ -341,7 +341,7 @@ font-size: 1.4rem;
     color: #F8B342;
 }
 .about-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0;
     width: 80%;
 }
@@ -358,7 +358,7 @@ font-size: 1.4rem;
     display: flex;
 }
 .ab-card p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .ab-title{
     font-size: 1.4rem;
@@ -398,7 +398,7 @@ font-size: 1.4rem;
     margin: 8rem 0;
 }
 .services-header{
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #F8B342;
 }
@@ -412,7 +412,7 @@ font-size: 1.4rem;
     height: 10rem;
 }
 .ser-card-title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 .ser-card-title a{
@@ -424,7 +424,7 @@ font-size: 1.4rem;
 
 }
 .ser-card p,.read-btn input{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
 }
 .read-btn input{
@@ -458,7 +458,7 @@ font-size: 1.4rem;
 }
 /* services ends here */
 .quote{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 2rem 0;
 }
@@ -503,7 +503,7 @@ font-size: 1.4rem;
     color: white;
 }
 .rec-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 1rem;
     color: white;
 }
@@ -521,7 +521,7 @@ font-size: 1.4rem;
     padding: 4rem;
 }
 .work-title{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #F8B342;
     font-weight: bold;
 }
@@ -533,7 +533,7 @@ font-size: 1.4rem;
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .work-fe img{
@@ -546,7 +546,7 @@ font-size: 1.4rem;
     padding: 1rem 0;
 }
 .work-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* our work ends here */
@@ -558,7 +558,7 @@ font-size: 1.4rem;
     margin: 4rem 0;
 }
 .industries p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     max-width: 70%;
     text-align: center;
     color: white;
@@ -571,7 +571,7 @@ font-size: 1.4rem;
     color: white;
 }
 .ind-title{
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #F8B342;
     font-weight: bold;
 }
@@ -585,7 +585,7 @@ font-size: 1.4rem;
 .ind-container{
     display: flex;
     gap: 7rem;
-    
+    width:50%;
     margin: 2rem 0;
 }
 .ind{
@@ -593,7 +593,10 @@ font-size: 1.4rem;
     font-weight: 600;
     gap: .2rem;
 }
-
+.testimonial .owl-carousel .owl-item img{
+    width: 45% !important;
+    margin: auto;
+}
 /* industries ends here */
 
 /* team members starts here */
@@ -606,7 +609,7 @@ font-size: 1.4rem;
     align-items: center;
 }
 .team-header span{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #F8B342;
     font-weight: 600;
 }
@@ -634,11 +637,11 @@ font-size: 1.4rem;
     max-height: 20rem;
 }
 .t-name{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 .t-position{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .team-card-container{
     display: grid;
@@ -712,7 +715,7 @@ font-size: 1.4rem;
     margin: 0 2rem;
 }
 .tes-title{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #F8B342;
     font-weight: 600;
     text-align: center;
@@ -731,7 +734,7 @@ font-size: 1.4rem;
     color: white;
 }
 .tes-comment{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: justify;
     color: white;
 }
@@ -758,7 +761,10 @@ font-size: 1.4rem;
     color: black;
 }
 
-
+.wrapper .carausel{
+    max-width:fit-content;
+    margin:auto
+}
 
 /* solve your it needs starts here */
 .itneed{
@@ -775,13 +781,13 @@ font-size: 1.4rem;
     font-weight: 600;
 }
 .itneed p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;
     max-width: 40%;
     margin: 1rem 0;
 }
 .contact-btn button{
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: white;
     background-color: #F8B342;
     padding: 1rem 3rem;
@@ -813,7 +819,7 @@ font-size: 1.4rem;
 .bl-title{
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .comment-profile{
@@ -856,7 +862,7 @@ font-size: 1.4rem;
     font-weight: 500;
 }
 .comment,.date,.profile{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 .comment{
     display: flex;
@@ -873,13 +879,13 @@ font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white;
 }
 footer a,.footer-abt{
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 footer a:hover{
     color: #F8B342;
@@ -899,7 +905,7 @@ footer{
     max-width: 20%;
 }
 .li-head{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #F8B342;
 }
