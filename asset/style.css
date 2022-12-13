@@ -10,7 +10,7 @@ html,body{
     overflow-x: hidden;
 }
 nav img{
-    height: 8rem;
+    height: 14rem;
 }
 nav,ul{
     display: flex;
@@ -24,7 +24,7 @@ nav li a{
 nav{
     justify-content: space-between;
     align-items: center;
-    padding: 0 4rem;
+    padding: 0 2rem;
     background-color: white;
 }
 .whole-nav-wrapper,nav{
@@ -71,21 +71,54 @@ nav{
     height: 2rem;
 }
 .nav-ul{
-    gap: 2.5rem;
+    gap: 1.5rem;
     font-size: 1.4rem;
 }
-.nav-ul a:hover{
+/*.nav-ul a:hover{
     color: #F8B342;
-}
+}*/
 .active{
     color: #F8B342;
 }
 .nav-ul a{
     color: black;
+    
 }
+.nav-ul a:hover{
+    color: #000000;
+
+}
+
+.nav-ul li{
+    padding: 0.5rem;
+}
+.nav-ul li:hover{
+    background: linear-gradient( 90deg, #ecbb6c 50%, #fff 0), linear-gradient(-90deg, #ecbb6c 50%, #fff 0); 
+    background-repeat: no-repeat;
+    background-size: 200% 50%;
+    background-position: top right, bottom left;
+    animation-name: example;
+    animation-duration: 4s;
+    transition: All 4s;
+
+    /*padding: 0.5rem 0.7rem;*/
+}
+.nav-ul li:hover .active{
+    color: #3D2C11;
+
+}
+@keyframes example {
+ 50%{ background-position: top left,bottom right;
+    /*background: linear-gradient( 90deg, cyan 50%, #fff 0), linear-gradient(-90deg, cyan 50%, #fff 0); 
+*/
+ }
+  }
 .nav-ul .active{
     color: #f8b342;
 }
+/*.nav-ul .active:hover{
+    color:#724d13;
+}*/
 .search-field input{
     background-color: transparent;
     border: none;
@@ -112,7 +145,7 @@ main{
     justify-content: space-around;
     align-items: center;
     padding: 5rem 4rem;
-    margin: 8rem 0 0 0;
+    margin: 3rem 0 0 0;
     background-image: linear-gradient(to right top, #f8b342, #d68643, #ab5f41, #794038, #462628, #462628, #462628, #462628, #794038, #ab5f41, #d68643, #f8b342);
 }
 main h1{
@@ -252,7 +285,7 @@ font-size: 1.4rem;
     gap: .8rem;
     flex-direction: row-reverse;
 }
-.btn{
+.bar-search .btn{
     display: none;
 }
 .dropdown-content{

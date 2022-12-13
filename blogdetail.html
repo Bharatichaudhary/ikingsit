@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9cfa251def.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
     <script src="asset/index.js"></script>
     <title>Blog-title</title>
 </head>
@@ -33,7 +35,7 @@
 
         <nav>
             <img src="asset/photosrc/logo.png" alt="Check your internet connection">
-            <ul class="nav-ul">
+            <ul class="nav-ul" data-aos="fade-right" data-aos-duration="3000" class="aos-init aos-animate">
                 <li><a href="index.html"><i class="fa-solid fa-house active"></i></a></li>
                 <li><a href="about.html">About us</a></li>
                 <li class="home nav-li dropdown-btn">
@@ -85,7 +87,7 @@
                 <a href="contact.html">Contact Us</a>
 
               </div>
-              <div class="bar-search">
+              <div class="bar-search" data-aos="fade-left" data-aos-duration="3000">
                   <div class="btn">
                     <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars home"></i></button>
                 </div>
@@ -385,6 +387,8 @@
             </div> © 2021 Kings IT & Multimedia. All Rights Reserved.
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
 </body>
 </html>
