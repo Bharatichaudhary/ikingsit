@@ -30,7 +30,6 @@
                 </div>
             </div>
             <div class="social-media nav-media">
-            <span>Follow us in our social media | </span>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -95,12 +94,23 @@
                   <div class="btn">
                     <button class="openbtn" onclick="openNav()"><i class="fa-solid fa-bars home"></i></button>
                 </div>
-                <div class="search-field">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search..">
+                <button class="search-field" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                <div>
+                    <!--<input type="text" placeholder="Search..">-->
                 </div>
               </div>
         </nav>
+        
+<div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+    <div class="overlay-content">
+      <form action="#">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
     </div>
 
     <main>
@@ -370,9 +380,9 @@
                     Meet Our Experience <span>Team Members</span>
                 </div>
             </div>
-            <div class="our-team-btn">
+            <!--<div class="our-team-btn">
                 <a href="ourteam.html"><button>View All Members</button></a>
-            </div>
+            </div>-->
         </div>
         <div class="team-card-container test">
           <div class="carousel owl-carousel">
@@ -566,8 +576,14 @@
         </div>
         <div class="bl-header">
             Checkout Our <span>Latest Blogs</span>
+           
+        </div>
+       
+        <div class="our-team-btn right">
+            <a href="ourteam.html"><button>View All Posts</button></a>
         </div>
         <div class="blog-container">
+            
             <a href="blogdetail.html">
                 <div class="blog-card">
                     <div class="blog-img">
@@ -669,8 +685,11 @@
                 <li><i class="fa-solid fa-envelope"></i>kingsIt@gmail.com</li>
             </div>
             <div class="sec-row">
-                <div class="li-head">Newsletter</div>
-                <div class="f-email">
+                <div class="li-head">Youtube</div>
+                <div class="g-ytsubscribe iframe my-3" data-channelid="UCG8mnpphrS75fncsGBwElIg" data-layout="full" data-theme="default" data-count="default"></div>     </div>
+
+
+                <!--<div class="f-email">
                     <i class="fa-solid fa-envelope" style="margin-right: .5rem;"></i><input type="text" placeholder="Enter your Email">
                     <button><i class="fa-solid fa-paper-plane"></i></button>
                 </div>
@@ -680,7 +699,7 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-solid fa-envelope"></i>
                 </div>
-            </div>
+            </div>-->
             <div class="fb-page sec-row">
                 <div class="connect-title li-head">Connect to our Facebook page</div>
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkingsit33&tabs=timeline&width=250&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -692,6 +711,8 @@
             </div> © 2022 Kings IT & Multimedia. All Rights Reserved.
         </div>
     </footer>
+    <script src="https://apis.google.com/js/platform.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
     <script>

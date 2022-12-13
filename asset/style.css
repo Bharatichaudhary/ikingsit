@@ -53,17 +53,24 @@ nav{
     justify-content: space-between;
     padding: 0 4rem;
 }
+.right{
+    display: block;
+    width: 80%;
+}
+.right button{
+    float: right;
+}
 .nav-media{
     align-items: center;
     font-size: 1.2rem;
     font-weight: 600;
 }
 .nav-media i{
-    color: #f8b342;
+    color: #e07d2b;
 }
 .nav-phone{
     display: flex;
-    font-size: 1rem;
+    font-size: 1.4rem;
     gap: .5rem;
     align-items: center;
 }
@@ -78,7 +85,7 @@ nav{
     color: #F8B342;
 }*/
 .active{
-    color: #F8B342;
+    color: #e07d2b;
 }
 .nav-ul a{
     color: black;
@@ -114,7 +121,7 @@ nav{
  }
   }
 .nav-ul .active{
-    color: #f8b342;
+    color: #e07d2b;
 }
 /*.nav-ul .active:hover{
     color:#724d13;
@@ -126,17 +133,91 @@ nav{
     font-size: 1rem;
 }
 .search-field{
-    border: 0.2rem solid #F8B342;
+   /* border: 0.2rem solid #e07d2b;*/
+   border: none;
     display: flex;
     align-items: center;
-    width: 15rem;
-    padding: .5rem;
+    padding: .8rem;
     gap: .2rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 1.8rem;
 }
-.search-field:hover{
-    border: .1rem solid #F8B342;
+.search-field:active{
+    background: #dddada;
 }
+
+.openBtn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .openBtn:hover {
+    background: #bbb;
+  }
+  
+  .overlay {
+    height: 50%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .overlay .closebtn:hover {
+    color: #ccc;
+  }
+  
+  .overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .overlay input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  .overlay button {
+    float: left;
+    width: 10%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .overlay button:hover {
+    background: #bbb;
+  }
 .fa-house{
     font-size: 1.6rem;
 }
@@ -307,7 +388,7 @@ font-size: 1.4rem;
     display: block;
 }
 .dropdown-content a:hover{
-    background-color: #F8B342;
+    background-color: #e07d2b;
     color: white;
     cursor: pointer;
     transition: .5s;
@@ -433,7 +514,7 @@ font-size: 1.4rem;
 .services-header{
     font-size: 2rem;
     font-weight: bold;
-    color: #F8B342;
+    color: #e07d2b;
 }
 .services-container span{
     font-size: 3.2rem;
@@ -555,7 +636,7 @@ font-size: 1.4rem;
 }
 .work-title{
     font-size: 1.6rem;
-    color: #F8B342;
+    color: #e07d2b;
     font-weight: bold;
 }
 .work-header{
@@ -643,7 +724,7 @@ font-size: 1.4rem;
 }
 .team-header span{
     font-size: 1.6rem;
-    color: #F8B342;
+    color: #e07d2b;
     font-weight: 600;
 }
 .team-header2,.team-header2 span{
@@ -654,7 +735,7 @@ font-size: 1.4rem;
     max-width: 60%;
 }
 .our-team-btn button{
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: #F8B342;
     color: white;
     border-radius: 2rem;
@@ -688,13 +769,13 @@ font-size: 1.4rem;
     align-items: center;
 }
 .social-media i{
-    font-size: 1.6rem;
+    font-size: 2rem;
     display: flex;
     width: fit-content;
 }
 .social-media{
     display: flex;
-    gap: .4rem;
+    gap: 1rem;
 }
 
 /* testimonial part start here */
@@ -864,7 +945,7 @@ font-size: 1.4rem;
     font-weight: 600;
 }
 .blog span{
-    color:#F8B342;
+    color:#e07d2b;
 }
 .bl-header{
     font-size: 3.2rem;
@@ -891,7 +972,7 @@ font-size: 1.4rem;
     padding: .5rem;
 }
 .blog i{
-    color: #F8B342;
+    color: #e07d2b;
 }
 .blog p{
     font-size: 1.2rem;
@@ -1481,7 +1562,7 @@ cursor: pointer;
 }
 .blog-card p{
     font-size: 1.4rem;
-    color: #f8b342;
+    color: #e07d2b;
 }
 .blog-pg-card{
     display: flex;
@@ -1674,7 +1755,7 @@ cursor: pointer;
 }
 .message-title a{
     font-weight: 600;
-    color: #f8b342;
+    color: #e07d2b;
     text-decoration: none;
 }
 .message-image{
