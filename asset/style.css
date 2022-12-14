@@ -334,7 +334,7 @@ font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 .banner-content span{
-    color: #F8B342;
+    color: #e07d2b;
 }
 
 .banner-content p{
@@ -452,7 +452,7 @@ font-size: 1.4rem;
 }
 .ab-card-wra{
     margin: 2rem 0;
-    color: #F8B342;
+    color: #e07d2b;
 }
 .about-content p{
     font-size: 1.4rem;
@@ -1074,7 +1074,7 @@ footer{
     display: flex;
     align-items: center;
     font-size: 1.4rem;
-    color: #F8B342;
+    color: #e07d2b;
     font-weight: bold;
 }
 .abt-con-header{
@@ -1088,10 +1088,10 @@ footer{
     margin-right: .2rem;
 }
 .abt-con-header span{
-    color: #F8B342;
+    color: #e07d2b;
 }
 .abt-pg-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: justify;
     color: #504538;
 }
@@ -1161,7 +1161,7 @@ footer{
     color: #00DCA2;
 }
 .contact-banner p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: white
 }
 
@@ -1190,14 +1190,14 @@ footer{
     color: #504538;
 }
 .contact-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .contact-card span{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 .contact-card p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .contact-card{
     width: 20rem;
@@ -1209,7 +1209,7 @@ footer{
     border-top: .2rem solid black;
     border-radius: .4rem;
     box-shadow: .2rem .2rem .2rem .3rem rgb(237, 231, 231);
-    padding: 4rem;
+    padding: 2rem;
 }
 .contact-card:hover {
     background-color: #00DCA2;
@@ -1243,7 +1243,7 @@ footer{
     font-weight: 600;
 }
 .c-form-header span,.contact-header span{
-    color: #F8B342;
+    color: #e07d2b;
 }
 .input-ctrl{
     display: flex;
@@ -1252,7 +1252,7 @@ footer{
     width: 100%;
 }
 .input-ctrl input,.submit-btn button{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 1rem 2rem;
     outline:none;
     background-color: transparent;
@@ -1269,7 +1269,7 @@ footer{
 .input-ctrl textarea{
     width: 100%;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     height: 20rem;
     color: gray;
     outline: none;
@@ -1299,7 +1299,7 @@ footer{
     padding: 5rem 10rem;
 }
 .feature-title{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -1321,7 +1321,7 @@ footer{
     gap: 1rem;
 }
 .fea-txt p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #3D2C11;
 }
 .fea-title{
@@ -1455,7 +1455,7 @@ cursor: pointer;
     text-align: center;
 }
 .recent-pr-he span{
-    color: #F8B342;
+    color: #e07d2b;
 }
 .service-pg{
     margin: 6rem;
@@ -1573,8 +1573,8 @@ cursor: pointer;
     width: 100%;
 }
 .blog-pg-title{
-    font-size: 1.8rem;
-    color: #f8b342;
+    font-size: 2rem;
+    color: #e07d2b;
 }
 .blog-pg-card-container{
     display: grid;
@@ -1600,18 +1600,18 @@ cursor: pointer;
     border: none;
     outline: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 .blog-search i{
     font-size: 1.4rem;
 }
 .most-read-title{
     font-weight: 600;
-    color: #f8b342;
-    font-size: 1.8rem;
+    color: #e07d2b;
+    font-size: 2rem;
 }
 .blog-line p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 1rem 0;
     border-bottom: .1rem solid gray;
 }
@@ -1619,7 +1619,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     gap: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 2rem 0;
     max-width: 90%;
 }
@@ -1627,7 +1627,7 @@ cursor: pointer;
     padding: 2rem 4rem;
 }
 .blog-date{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: gray;
     margin-top: .4rem;
 }
@@ -1643,10 +1643,10 @@ cursor: pointer;
 .categories{
     background-color: #f8b342;
     width: fit-content;
-    padding: .5rem .7rem;
-    font-size: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
     margin: 1rem 0;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 }
 .published-txt{
     display: flex;
@@ -1791,7 +1791,37 @@ cursor: pointer;
     width: 60%;
     
 }
-
+.subscribe{
+    padding: 5rem ;
+    background-image: url("./photosrc/sub-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 4rem 0;
+}
+.sub{
+    width: 80%;
+    background-color: rgb(175, 180, 180,0.5);
+    
+    margin: auto;
+    padding: 2rem 5rem;
+    border: 2px solid #bbb;
+   
+}
+.sub input{
+    width:100%;
+    height: 4rem;
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem ;
+    margin-bottom: 2rem;
+    border:2px solid #e49271;
+    border-radius: 2rem;
+}
+.sub label{
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    color: rgb(58, 56, 56);
+}
 
 @media (max-width:812px){
     .bar-search .btn{
