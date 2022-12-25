@@ -241,7 +241,19 @@ main h1{
 }
 .theme{
     background-color: #bdb9b9;
-    background-image: url(photosrc/wordpress-bg.webp);
+    background-image: url(photosrc/wordpress-bg.webp)!important;
+}
+.theme .w-banner-title{
+    color: #ab5f41;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.theme p, .theme a{
+    color: #c87843!important;
+}
+.theme a:hover{
+    color: aqua!important;
 }
 .banner-img{
     background-color: #f8b342;
@@ -1136,7 +1148,6 @@ footer{
     padding: 6rem;
 }
 
-
 /* contact us starts here */
 .contact-banner{
     background-image: url(./photosrc/contact-banner.jpg);
@@ -1144,7 +1155,7 @@ footer{
     background-size: cover;
     background-position: center;
     padding: 10rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 .c-banner-title,.contact-banner p{
     color: white;
@@ -1463,8 +1474,15 @@ cursor: pointer;
 .service-pg-banner{
     background-image: url(./photosrc/service-pg-banner.jpg);
 }
+.service-inner-banner{
+    background-image: url(./photosrc/service-bg.jpeg);
+}
 .technology-pg-banner{
     background-image: url(./photosrc/technology.jpeg);
+}
+
+.wordpress-bg{
+    background-image: url(./photosrc/wordpress-bg.jpeg);
 }
 /* our team page starts here */
 .our-team-pg{
